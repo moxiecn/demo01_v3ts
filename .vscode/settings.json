@@ -108,4 +108,5 @@
     "typescriptreact",
     "html"
   ],
+  "git.ignoreLimitWarning": true,
 }
