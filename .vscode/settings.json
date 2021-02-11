@@ -1,0 +1,111 @@
+{
+  //// window
+  "window.zoomLevel": 1,
+  //// workbench
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Visual Studio Dark",
+  //"workbench.colorCustomizations": {
+  //  "editor.lineHighlightBackground": "#6b6b6b",
+  //  "editor.lineHighlightBorder": "#6b6b6b"
+  //},
+  //// file
+  "files.autoSave": "onFocusChange",
+  //// editor
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.cursorWidth": 2,
+  "editor.minimap.maxColumn": 160,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.wordWrap": "off",
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+    40,
+    80,
+    120
+  ],
+  "editor.fontFamily": "monospace,'Courier New','Fira Code',Menlo,Monaco",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 12,
+  "editor.glyphMargin": true,
+  "editor.lineHeight": 16,
+  "editor.lineNumber": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.tabCompletion": "on",
+  "editor.detectIndentation": false,
+  "editor.renderLineHighlight": "line",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorStyle": "underline",
+  "editor.cursorBlinking": "smooth",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  //// json
+  "json.maxItemsComputed": 500000,
+  //// prettier
+  "prettier.tslintIntegration": true,
+  //// tslint
+  "tslint.autoFixOnSave": true,
+  //// vuter
+  "vetur.format.defaultFormatter.ts": "none",
+  //// python
+  "python.languageServer": "Pylance",
+  //// git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  //// miscellaneious
+  "typescript.format.enable": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "emmet.triggerExpansionOnTab": true,
+  "terminal.integrated.rendererType": "dom",
+  "todo-tree.tree.showScanModeButton": false,
+  "notebook.kernelProviderAssociations": [],
+  "vs-kubernetes": {
+    "vs-kubernetes.helm-path.mac": "/Users/moxieliu/.vs-kubernetes/tools/helm/darwin-amd64/helm"
+  },
+  //// Formatter
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[vue]": {
+  //     "editor.defaultFormatter": "octref.vetur"
+  // },
+  "[javascript]": {
+    "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+  },
+  // "[javascript]": {
+  //     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  // },
+  //"vetur.format.defaultFormatter.ts": "none",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_line_length": 120,
+      "wrap_attributes": "auto",
+      "end_with_newline": false
+    }
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "eslint.validate": [
+    "vue",
+    // "javascript",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
+}
